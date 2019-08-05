@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/********************top address***************/
+.bgt{
+    background-color: #2F2F2F;
+    height: 25px;
+}
+.topaddress{
+    text-align: center;
+    font: 16px;
+    color:#B3B3B3;
+    text-decoration: none;
+}
+.khmer{
+    color: #FFAE02;
+    background: none;
+    border: none;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.english{
+    color: #FFAE02;
+    background: none;
+    border: none;
+    padding-left: 20px;
+    cursor: pointer;
+}
+/********************back to home**********************/
+.a1{
+    text-decoration: none; 
+    transition: 0.5s;
+    padding: 8px;
+    border:none;
+    background:none;
+    color: #FFAE02;
+    padding-left: 0px;
+}
+.b{
+text-decoration: none; 
+font-size: 16px;
+text-align: left;
+}
+.b a:hover{
+text-decoration:none; 
+color: #0C4F9B;
+font-size: 16px;
+text-align: center;
+}
+
+
+
+/*----NavigationBar----*/
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+.navbar-logo img
+{
+    height: 60px;
+    padding-left: 95px;
+}
+.navbar-nav li{
+    height: 60px;
+    margin-left:20px;
+    border-right:1.5px solid #0C65C5;
+    
+}
+.navbar-nav li a{
+    float: right;
+    text-align: center;
+}
+#nav-bar ul li a:hover{
+    color:#FFC621!important;
+    transform: translateY(-8px);
+}
+.navbar
+{
+   background-color: #0C4F9B;
+}
+#navbarNav{
+    padding-right: 70px;
+}
+.navbar-toggler{
+    border: none!important;
+    
+}
+.nav-link{
+    /*color: #FFC621!important;*/
+    color: #FFAE02!important;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+
+/*-------------Professional Education-------------*/
+#professionaleducation{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: black;   
+}
+#about .col-md-6{
+    padding: 20px 10px;
+}
+#about .btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: #0C4F9B;
+}
+.about-content{
+    padding-top: 10px;
+    
+}
+.about-image{
+    height: 40px;
+    padding-left: 30px;
+}
+
+/*-------------Study Options------------*/
+#studyotion{
+background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0.50)),url(IMG_0421.JPG);
+background-size: cover;
+background-position: center;
+color:#FFAE02!important;
+background-attachment: fixed;
+padding-top: 2px;
+padding-bottom: 15px;   
+}
+#studyotion h1{
+text-align: center;
+color: #FFAE02!important;
+padding-bottom: 10px;
+    
+}
+#studyotion h1::after{
+content: '';
+background: #efefef;
+display: block;
+height: 3px;
+width: 100px;
+margin:20px auto 5px;
+    
+}
+.studyotion{
+margin-top: 10px;
+}
+.icon1{
+font-size: 40px;
+margin: 20px auto;
+padding: 10px;
+height: 100px;
+width: 100px;
+border: 3px solid #FFAE02;
+border-radius: 50%;
+}
+#studyotion p{
+font-size: 14px;
+margin-top: 20px;
+color: #FFAE02;
+}
+
+.studyotion .col-md-4:hover{
+cursor: pointer;
+transition: 0.5s;
+color: aliceblue;
+border-radius:10px;
+
+}
+
+/*-------------Form of learning-------------*/
+#junior{
+    padding-top: 40px;
+    padding-bottom: 40px; 
+}
+
+/*-------------shortcourses------------*/
+#shortcourses{
+    padding-top: 40px;
+    padding-bottom: 90px;
+    color: black;   
+}
+.card-titlee{
+font-size: 21px;
+font-weight: bold;
+margin-top: 15px;
+color: darkorange;
+}
+
+
+/*-------------Corporate Courses------------*/
+#corporatecourses{
+background-size: cover;
+background-position: center;
+color:black;
+background-attachment: fixed;
+padding-top: 40px;
+padding-bottom: 40px;   
+}
+#corporatecourses h1{
+text-align: center;
+color: #efefef!important;
+padding-bottom: 10px;
+}
+#corporatecourses h1::after{
+content: '';
+background: #efefef;
+display: block;
+height: 3px;
+width: 170px;
+margin:20px auto 5px;
+}
+.corporatecourses{
+margin-top: 40px;
+}
+.icon{
+font-size: 40px;
+margin: 20px auto;
+padding: 10px;
+height: 80px;
+width: 80px;
+border: 1px solid #fff;
+border-radius: 50%;
+}
+#corporatecourses-content p{
+font-size: 14px;
+margin-top: 20px;
+color: black;
+}
+.corporatecourses .col-md-4:hover{
+background: darkorange;
+cursor: pointer;
+transition: 0.7s;
+}
+
+/***********************Botton style*************************/
+#corporatecourses .col-md-6{
+    padding: 10px 10px;
+}
+#corporatecourses .btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: #0C4F9B;
+    color: #FFAE02;
+     font-weight: 600;
+    font-size: 16px;
+}
+#corporatecourses .btn:hover{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: #FFAE02;
+    color: #0C4F9B;
+    border:1px solid #FFAE02;
+    
+}
+/*-------------individoul couses--------------*/
+#individoul{
+padding-top: 50px;
+padding-bottom: 50px;
+color: black;
+}
+h1{
+text-align: center;
+color: black;
+padding-bottom: 10px;
+}
+h1::after{
+content: '';
+background: darkorange;
+display: block;
+height: 3px;
+width: 170px;
+margin: 20px auto 5px;
+}
+.card-title{
+font-size: 22px;
+font-weight: bold;
+margin-top: 15px;
+color: darkorange;
+}
+.card-text{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+/*--------------Other Sevices * Strait Line---------------*/
+.straitline{
+    color: #0C4F9B;
+    border-bottom: 3px solid #0C4F9B;
+}
+
+/*--------------Other Services /  Contact---------------*/
+#otherservices{
+background: #efefef;
+padding-top: 40px;
+padding-bottom: 40px;
+color: black;
+}
+.contact-form{
+padding: 15px;
+}
+.form-control{
+border-radius: 0 !important;
+border: none !important;
+}
+::placeholder{
+color: #999 !important;
+}
+.follow{
+padding: 10px;
+margin: 15px;
+border-right:1.5px solid #0C65C5
+}
+.contact-info .fa{
+margin: 10px;
+color: darkorange;
+font-weight: bold;
+}
+/*----------------Footer-------------------*/
+#footer{
+background: #0C4F9B;
+padding-top: 25px;
+color: #FFAE02;
+text-align: center;
+height: 230px;
+}
+
+.Copyrightfooter{
+    text-align: center;
+    background-color: #FFAE02;
+    height: 65px;
+}
+.footertext{
+    padding: 5px;
+}
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two
+columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.row1, .navbar {
+flex-direction: column;
+}
+}
+
+
+

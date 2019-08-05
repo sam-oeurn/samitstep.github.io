@@ -1,0 +1,10 @@
+1. navbar, Menu BG : background-color: #0C4F9B; (Dark Blue)
+2.Menu text color: #FFAE02; font-weight: 600; font-size: 16px; (Dark Gold)
+3.Menu text hover color:#EAEAEA ; (Dark White)
+4.text Hover #FFC621 (Gold)
+
+.homepro{
+    font-size: 25px;
+    padding: 25px;
+    font-weight: 800px;
+}

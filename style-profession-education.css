@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*----NavigationBar----*/
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+.navbar-logo img
+{
+    height: 45px;
+    padding-left: 95px;
+}
+.navbar-nav li{
+    height: 40px;
+    padding: 0 7px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: #FFC621!important;
+}
+.navbar
+{
+   background-color: #0C4F9B;
+}
+#navbarNav{
+    padding-right: 95px;
+}
+.navbar-toggler{
+    border: none!important;
+    
+}
+.nav-link{
+    /*color: #FFC621!important;*/
+    color: #FFAE02!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*-----slider-----*/
+#slider{
+    width: 100%;
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+    color: aqua;
+}
+.carousel-caption h5{
+    color: white;
+    text-shadow: 3px 3px 2px #0C4F9B;
+    font-size: 40px;
+    font-weight: 550;
+}
+.carousel-caption p{
+    color: white;
+    text-shadow: 1px 2px 2.5px black;
+    font-size: 28px;
+}
+/*-------------Form of learning-------------*/
+#form{
+    padding-bottom: 5px;
+}
+.form-content{
+    text-align: center;
+    color: #0C4F9B;
+    font-family: inherit;
+    font-size: 20px;
+    position: sticky;
+}
+/*----------------Form Content-------------------*/
+* {
+box-sizing: border-box;
+}
+/* Column container */
+.row1 {
+display: flex;
+flex-wrap: wrap;
+color: #FFAE02;
+text-align: center;
+padding-left: 80px;
+}
+h5{
+    padding: 10px;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side1{
+flex:10%;
+padding: 2px;
+}
+.side2{
+flex:10%;
+padding: 2px;
+}
+.side3{
+flex:10%;
+padding: 2px;
+}
+.side4{
+flex:10%;
+padding:2px;
+}
+.side5{
+flex:10%;
+padding: 2px;
+}
+.side6{
+flex:10%;
+padding: 2px;
+}
+.nav-side{
+    /*color: #FFC621!important;*/
+    color: #FFAE02!important;
+    padding-bottom: 50px;
+}
+
+/* Fake image, just for this example */
+.fakeimg{
+background-color: #0C4F9B;
+width: 150px;
+height: 95px;
+padding: 1px;
+     border-radius: 10px;
+}
+.fakeimg:hover{
+background-color: #0e5bb3;
+list-style:none;
+box-shadow: 0.5px 0.5px 5px #0e5bb3;
+text-decoration: none;
+}
+
+
+/*-------------About-------------*/
+#about{
+    color: black;   
+}
+#about .col-md-6{
+    padding:  10px;
+}
+#about .btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-content{
+    padding-top: 20px;
+    
+}
+.about-image{
+    height: 40px;
+    padding-left: 30px;
+}
+/*-------------Properties------------*/
+#properties{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;   
+}
+.card-titlee{
+font-size: 21px;
+font-weight: bold;
+margin-top: 15px;
+color: darkorange;
+}
+/*-------------Services------------*/
+#services{
+background-image: linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0.10)),url(IMG_0421.JPG);
+background-size: cover;
+background-position: center;
+color:#efefef!important;
+background-attachment: fixed;
+padding-top: 50px;
+padding-bottom: 50px;   
+}
+#services h1{
+text-align: center;
+color: #efefef!important;
+padding-bottom: 10px;
+}
+#services h1::after{
+content: '';
+background: #efefef;
+display: block;
+height: 3px;
+width: 170px;
+margin:20px auto 5px;
+}
+.services{
+margin-top: 40px;
+}
+.icon{
+font-size: 40px;
+margin: 20px auto;
+padding: 10px;
+height: 80px;
+width: 80px;
+border: 1px solid #fff;
+border-radius: 50%;
+}
+#services p{
+font-size: 14px;
+margin-top: 20px;
+color: #ccc;
+}
+.services .col-md-4:hover{
+background: darkorange;
+cursor: pointer;
+transition: 0.7s;
+}
+/*-------------AgentFinder--------------*/
+#agentfinder{
+padding-top: 50px;
+padding-bottom: 50px;
+color: #555;
+}
+h1{
+text-align: center;
+color: #555!important;
+padding-bottom: 10px;
+}
+h1::after{
+content: '';
+background: darkorange;
+display: block;
+height: 3px;
+width: 170px;
+margin: 20px auto 5px;
+}
+.card-title{
+font-size: 22px;
+font-weight: bold;
+margin-top: 15px;
+color: darkorange;
+}
+.card-text{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+/*--------------Contact---------------*/
+#contact{
+background: #efefef;
+padding-top: 40px;
+padding-bottom: 40px;
+color: #777;
+}
+.contact-form{
+padding: 15px;
+}
+.form-control{
+border-radius: 0 !important;
+border: none !important;
+}
+::placeholder{
+color: #999 !important;
+}
+.follow{
+background: #fff;
+padding: 10px;
+margin: 15px;
+}
+.contact-info .fa{
+margin: 10px;
+color: darkorange;
+font-weight: bold;
+}
+/*----------------Footer-------------------*/
+#footer{
+background: #0C4F9B;
+color: #FFAE02;
+padding: 20px;
+margin: 3px;
+text-align: center;
+margin-top: 150px;
+     text-shadow: 3px 3px 2px #0C4F9B;
+    font-weight: 550;
+}
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two
+columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.row1, .navbar {
+flex-direction: column;
+}
+}
+
+
+
+
+/*----------------Text after formoflearning-------------------*/
+#form{
+    padding-bottom: 5px;
+}
+.form-content{
+    text-align: center;
+    color: #0C4F9B;
+    font-family: inherit;
+    font-size: 20px;
+    position: sticky;
+}
+/*----------------Form Content-------------------*/
+* {
+box-sizing: border-box;
+}
+/* Column container */
+.row1 {
+display: flex;
+flex-wrap: wrap;
+color: #FFAE02;
+text-align: center;
+padding-left: 80px;
+}
+h5{
+    padding: 10px;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.SDside{
+flex:10%;
+padding: 2px;
+}
+.GDside{
+flex:10%;
+padding: 2px;
+}
+.NTside{
+flex:10%;
+padding: 2px;
+}
+
+.nav-side2{
+    /*color: #FFC621!important;*/
+    color: #FFAE02!important;
+}
+
+/* Fake image, just for this example */
+.text-center{
+   display:inline-block;
+}
+.row2{
+   display:inline-block;
+}
+.fakeimg2{
+background-color: red;
+width: 200px;
+height:100px;
+padding: 1px;
+border-radius: 10px;
+    display:inline;
+}
+.fakeimg2:hover{
+background-color: #0e5bb3;
+box-shadow: 0.5px 0.5px 5px #0e5bb3;
+text-decoration: none;
+}
+.fakeimg3{
+height:50px;
+padding: 1px;
+}
